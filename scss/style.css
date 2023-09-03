@@ -324,6 +324,84 @@ main {
   font-weight: 500;
 }
 
+
+#registration .registration-wrap {
+  margin: 2em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  z-index: 9;
+  border-top: 1px solid #242424;
+  border-bottom: 1px solid #242424;
+  background: #42ecff;
+  position: relative;
+  padding: 3em 2em;
+}
+
+#registration .registration-wrap .registration-img {
+  width: 22%;
+  height: 200px;
+  z-index: 9;
+  position: relative;
+}
+
+#registration .registration-wrap .registration-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#registration .registration-wrap .registration-desc {
+  width: 75%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 1em;
+  z-index: 9;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid: 1em;
+  width: 100%;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid .registration-list {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid .registration-list ul {
+  list-style: none;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid .registration-list ul li {
+  margin-bottom: 0.2em;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid .registration-list ul li i {
+  font-size: 1em;
+  color: #4bffa5;
+  margin-right: 0.5em;
+}
+
+#registration .registration-wrap .registration-desc .registration-info-grid .registration-list ul span {
+  color: #ffffff;
+  font-weight: 500;
+}
+
 #knowledge {
   margin-bottom: 8em;
   padding: 1em 0;
