@@ -183,14 +183,14 @@ header nav .nav-links .nav-links-wrap li {
 }
 
 header nav .nav-links .nav-links-wrap li a {
-  color: #2d4ddc;
+  color: #4bffa5;
   font-weight: 700;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
 header nav .nav-links .nav-links-wrap li a:hover {
-  color: #ffffff;
+  color: #2d4ddc;
 }
 
 header nav .nav-links .nav-links-wrap li button a {
