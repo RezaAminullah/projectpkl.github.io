@@ -115,7 +115,7 @@ header .header-right-info .standing-line-right {
   height: 3em;
   width: 1px;
   margin-bottom: 1em;
-  background-color: #ffffff;
+  background-color: #afafaf;
 }
 
 header nav {
@@ -162,7 +162,7 @@ header nav .logo a {
 }
 
 header nav .logo a span {
-  color: #ffffff;
+  color: #ffdd00;
 }
 
 header nav .nav-links .nav-links-wrap {
